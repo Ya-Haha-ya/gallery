@@ -24,7 +24,7 @@ class PhotoFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         photoView = PhotoView(requireContext())
         return photoView
     }
@@ -45,5 +45,4 @@ class PhotoFragment : Fragment() {
             photoViewModel.loadLocalPhotos()
         }
     }
-
 }

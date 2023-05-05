@@ -21,5 +21,4 @@ class PhotoView(context: Context) : FrameLayout(context) {
     fun hideProgressBar() {
         progressBar.hide()
     }
-
 }
