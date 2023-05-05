@@ -45,5 +45,4 @@ class PhotoFragment : Fragment() {
             photoViewModel.loadLocalPhotos()
         }
     }
-
 }
