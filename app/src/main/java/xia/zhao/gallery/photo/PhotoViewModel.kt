@@ -11,7 +11,7 @@ import kotlinx.coroutines.withContext
 class PhotoViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _photoUiModel: MutableLiveData<PhotoUiModel> = MutableLiveData(PhotoUiLoading)
-    val photoUiModel : LiveData<PhotoUiModel> = _photoUiModel
+    val photoUiModel: LiveData<PhotoUiModel> = _photoUiModel
 
     suspend fun loadLocalPhotos() {
         // TODO: Implement load photos from local and update the photoUiModel
